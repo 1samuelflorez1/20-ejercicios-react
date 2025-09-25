@@ -1,68 +1,135 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@import "tailwindcss";
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+*{
+    margin: 0px;
+    justify-self: center;
+}
+/* ------------------------------------------------------------ejercio 1---------------------------------------------------- */
+.bienvenidoProps{
+    background-color: #341890;
+    width: 320px;
+    height: 120px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 300px;
+}
+/* ------------------------------------------------------------ejercio 1---------------------------------------------------- */
+/* ------------------------------------------------------------ejercio 2---------------------------------------------------- */
+.divejercicio2{
+    background-color: #5f4b9e;
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 140px;
+}
+.imgejercicio2{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.textoimagenejericio2{
+    font-size: 30px;
+    font-weight:600;
+    color: rgb(235, 235, 235);
+}
+.like{
+    display: flex;
+    color: rgb(198, 198, 198);
+}
+.likeBtn{
+    background-color: #341890;
+    margin-left: 10px;
+    border-radius: 20px;
+    width: 60px;
+}
+/* ------------------------------------------------------------ejercio 2---------------------------------------------------- */
+/* ------------------------------------------------------------ejercio 3---------------------------------------------------- */
+.cardInputejercicio3{
+    width: 300px;
+    height: 80px;
+    background-color: #341890;
+    border-radius: 20px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inputEjercicio3{
+    background-color: #553ca7;
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    color: white;
+}
+.textoInput{
+    color: rgb(188, 188, 188);
+    margin-top: 6px;
+}
+/* ------------------------------------------------------------ejercio 3---------------------------------------------------- */
+/* ------------------------------------------------------------ejercio 4---------------------------------------------------- */
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* ------------------------------------------------------------ejercio 4---------------------------------------------------- */
+/* ------------------------------------------------------------ejercio 5---------------------------------------------------- */
+
+.divOcultarInfoejer5{
+    padding: 40px;
+    margin-top: 100px;
+    background-color: #341890;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.imgejer5{
+    width: 200px;
+    height: 200px;
+}
+.BtnInfoejer5{
+    margin-top: 16px;
+    background-color: #634cb0;
+    border-radius: 20px;
+    width: 170px;
+    height: 40px;
+    color: rgb(231, 231, 231);
+}
+.BtnInfoejer5:hover{
+    background-color: #422d85;
+}
+.infoUser{
+    color: rgb(148, 108, 217);
+    margin-top: 10px;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+/* ------------------------------------------------------------ejercio 5---------------------------------------------------- */
+/* ------------------------------------------------------------ejercio 6---------------------------------------------------- */
+
+.divejer6{
+    background-color: #341890;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 200px;
 }
-a:hover {
-  color: #535bf2;
+.textejer6{
+    color: white;
+}
+.btnejer6{
+    color: white;
+    background-color: #634cb0;
+    width: 100px;
+    border-radius: 20px;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
+/* ------------------------------------------------------------ejercio 6---------------------------------------------------- */
