@@ -6,7 +6,9 @@ import { createRoot } from 'react-dom/client'
 // import RenderizarApi from './Exercises/Ejerciciofacil4'
 // import BtnMostrar from './Exercises/Ejerciciofacil5'
 // import EstadoConectado from './Exercises/Ejerciciofacil6'
-import FirstForm from './Exercises/Ejerciciofacil7'
+// import FirstForm from './Exercises/Ejerciciofacil7'
+import RelojDigital from './Exercises/Ejerciciofacil8'
+
 
 
 
@@ -18,6 +20,7 @@ createRoot(document.getElementById('root')!).render(
     {/* <RenderizarApi/> */}
     {/* <BtnMostrar/> */}
     {/* <EstadoConectado/> */}
-    <FirstForm/>
+    {/* <FirstForm/> */}
+    <RelojDigital/>
   </StrictMode>,
 )
