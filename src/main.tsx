@@ -12,7 +12,9 @@ import { createRoot } from 'react-dom/client'
 // import SearchInput from './Exercises/Ejerciciofacil10'
 // import ModoOscuro from './Exercises/Ejercicionormal11'
 // import Cantidadplusminus from './Exercises/Ejercicionormal12'
-import ComentariosPost from './Exercises/Ejercicionormal13'
+// import ComentariosPost from './Exercises/Ejercicionormal13'
+// import DropDown from './Exercises/Ejercicionormal14'
+import AumentoTexto from './Exercises/Ejercicionormal15'
 
 
 createRoot(document.getElementById('root')!).render(
@@ -29,6 +31,8 @@ createRoot(document.getElementById('root')!).render(
     {/* <SearchInput/> */}
     {/* <ModoOscuro/> */}
     {/* <Cantidadplusminus/> */}
-    <ComentariosPost/>
+    {/* <ComentariosPost/> */}
+    {/* <DropDown/> */}
+    <AumentoTexto/>
   </StrictMode>,
 )
