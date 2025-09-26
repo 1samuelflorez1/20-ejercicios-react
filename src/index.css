@@ -160,3 +160,61 @@
 }
 
 /* ------------------------------------------------------------ejercio 8---------------------------------------------------- */
+/* ------------------------------------------------------------ejercio 9---------------------------------------------------- */
+
+.productoIndividualejer9{
+    background-color: #341890;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    padding: 20px;
+    border-radius: 25px;
+}
+.producto{
+    color: white;
+    font-size: 20px;
+}
+.btnproducto{
+    background-color: #634cb0;
+    border-radius: 20px;
+    width: 150px;
+    padding: 5px;
+    color: rgb(64, 18, 112);
+    font-size: 15px;
+}
+.btnproducto:hover{
+    background-color: #553ca7;
+}
+
+/* ------------------------------------------------------------ejercio 9---------------------------------------------------- */
+/* ------------------------------------------------------------ejercio 10---------------------------------------------------- */
+
+/* ------------------------------------------------------------ejercio 10---------------------------------------------------- */
+/* ------------------------------------------------------------ejercio 11---------------------------------------------------- */
+
+.modeClaro{
+    background-color: rgb(229, 192, 255);
+    color: rgb(36, 13, 104);
+    border-radius: 30px;
+    padding: 10px;
+    width: 200px;
+    margin-top: 100%;   
+    box-shadow: 0px 10px 20px 5px red;
+
+}
+.modeOscuro{
+    background-color: rgb(50, 10, 109);
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    width: 200px;
+    margin-top: 100%;
+    box-shadow: 0px 10px 20px 5px red;
+}
+.modeClaroF{
+    background-color: rgb(229, 192, 255);
+}
+.modeOscuroF{
+    background-color: rgb(50, 10, 109);
+}
+/* ------------------------------------------------------------ejercio 11---------------------------------------------------- */

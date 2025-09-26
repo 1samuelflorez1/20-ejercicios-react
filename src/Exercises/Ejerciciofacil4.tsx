@@ -13,6 +13,7 @@ type Personaje = {
 function RenderizarApi (){
 
     const [personajes, setPersonajes] = useState<Personaje[]>([]);
+    const [busqueda, setBusqueda] = useState("")
 
     useEffect(() => {
         fetch('https://rickandmortyapi.com/api/character')
@@ -21,9 +22,13 @@ function RenderizarApi (){
     }, []);
 
     return(<>
+
+        <input
+        onChange={e => setBusqueda(e.target.value)} 
+        placeholder="Search Bar"></input>
         
         <div className="divPersonajes">
-            {personajes.map((personaje) => 
+            {personajes.filter(p => p.name.toLocaleLowerCase().includes(busqueda)).map((personaje) => 
             (<li key={personaje.id}>{personaje.name}{<img src={personaje.image}></img>}</li>))}
         </div>
 

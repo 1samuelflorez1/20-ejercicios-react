@@ -1,12 +1,15 @@
 {
     "carrito":[
         {
+            "id": 1,
             "Nombre": "computador"
         },
         {
+            "id": 2,
             "Nombre" : "mouse"
         },
         {
+            "id": 3,
             "Nombre" : "celular"
         }
     ]

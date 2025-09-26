@@ -7,7 +7,10 @@ import { createRoot } from 'react-dom/client'
 // import BtnMostrar from './Exercises/Ejerciciofacil5'
 // import EstadoConectado from './Exercises/Ejerciciofacil6'
 // import FirstForm from './Exercises/Ejerciciofacil7'
-import RelojDigital from './Exercises/Ejerciciofacil8'
+// import RelojDigital from './Exercises/Ejerciciofacil8'
+// import Listacompras from './Exercises/Ejerciciofacil9'
+// import SearchInput from './Exercises/Ejerciciofacil10'
+import ModoOscuro from './Exercises/Ejercicionormal11'
 
 
 
@@ -21,6 +24,9 @@ createRoot(document.getElementById('root')!).render(
     {/* <BtnMostrar/> */}
     {/* <EstadoConectado/> */}
     {/* <FirstForm/> */}
-    <RelojDigital/>
+    {/* <RelojDigital/> */}
+    {/* <Listacompras/> */}
+    {/* <SearchInput/> */}
+    <ModoOscuro/>
   </StrictMode>,
 )
