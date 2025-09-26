@@ -10,9 +10,9 @@ import { createRoot } from 'react-dom/client'
 // import RelojDigital from './Exercises/Ejerciciofacil8'
 // import Listacompras from './Exercises/Ejerciciofacil9'
 // import SearchInput from './Exercises/Ejerciciofacil10'
-import ModoOscuro from './Exercises/Ejercicionormal11'
-
-
+// import ModoOscuro from './Exercises/Ejercicionormal11'
+// import Cantidadplusminus from './Exercises/Ejercicionormal12'
+import ComentariosPost from './Exercises/Ejercicionormal13'
 
 
 createRoot(document.getElementById('root')!).render(
@@ -27,6 +27,8 @@ createRoot(document.getElementById('root')!).render(
     {/* <RelojDigital/> */}
     {/* <Listacompras/> */}
     {/* <SearchInput/> */}
-    <ModoOscuro/>
+    {/* <ModoOscuro/> */}
+    {/* <Cantidadplusminus/> */}
+    <ComentariosPost/>
   </StrictMode>,
 )
