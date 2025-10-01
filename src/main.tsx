@@ -13,10 +13,12 @@ import { createRoot } from 'react-dom/client'
 // import ModoOscuro from './Exercises/Ejercicionormal11'
 // import Cantidadplusminus from './Exercises/Ejercicionormal12'
 // import ComentariosPost from './Exercises/Ejercicionormal13'
-import DropDown from './Exercises/Ejercicionormal14'
+// import DropDown from './Exercises/Ejercicionormal14'
 // import AumentoTexto from './Exercises/Ejercicionormal15'
 // import GridProductos from './Exercises/Ejercicionormal16'
-
+// import CardBtn from './Exercises/Ejercicionormal17'
+// import CargaApiPantalla from './Exercises/Ejercicionormal18'
+import SumaApiArmas from './Exercises/Ejercicionormal19'
 
 
 createRoot(document.getElementById('root')!).render(
@@ -34,8 +36,11 @@ createRoot(document.getElementById('root')!).render(
     {/* <ModoOscuro/> */}
     {/* <Cantidadplusminus/> */}
     {/* <ComentariosPost/> */}
-    <DropDown/>
+    {/* <DropDown/> */}
     {/* <AumentoTexto/> */}
     {/* <GridProductos/> */}
+    {/* <CardBtn/> */}
+    {/* <CargaApiPantalla/> */}
+    <SumaApiArmas/>
   </StrictMode>,
 )

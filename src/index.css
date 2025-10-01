@@ -338,3 +338,80 @@
 }
 
 /* ------------------------------------------------------------ejercio 16---------------------------------------------------- */
+/* ------------------------------------------------------------ejercio 17---------------------------------------------------- */
+
+#fotoPerfil{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    margin-top: 100%;
+    border-radius: 30px;
+}
+#btnseguir{
+background-color: #5f4b9e;
+color: white;
+border-radius: 20px;
+width: 100px;
+height: 30px; 
+margin-top: 10px;  
+}
+#divseguir{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ------------------------------------------------------------ejercio 17---------------------------------------------------- */
+/* ------------------------------------------------------------ejercio 18---------------------------------------------------- */
+
+#individualGun{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+#gunsola{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#btnarma{
+    background-color: #5f4b9e;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 10px;
+    color: #b6a4f1;
+}
+#btnarma:hover{
+    background-color: #422d85;
+}
+.colorFondoArmas{
+    background-color: #130739;
+}
+#costgun{
+    color: #b6a4f1;
+}
+#namegun{
+    color: #b6a4f1;
+}
+#costetitulo{
+    font-size: 100px;
+    color: #5e3dc8;
+    font-weight: 800;
+    position: fixed;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 10px;
+    background: rgba(160, 83, 224, 0.1); /* fondo semitransparente */
+    backdrop-filter: blur(5px);          /* aplica blur al fondo */
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 100px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.5);
+}
+/* ------------------------------------------------------------ejercio 18---------------------------------------------------- */
